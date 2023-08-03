@@ -1,0 +1,101 @@
+.loginscrn{
+    position: relative;
+    height: 100%;
+    background: url(https://cdn.shopify.com/s/files/1/0607/5056/1539/articles/netflix.jpg?v=1669877376);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    object-fit: contain;
+    overflow-y: hidden;
+    /* height: 100%; */
+}
+.loginscrn-logo{
+    width: 150px;
+    /* height: 30px; */
+    margin-left: 20px; 
+    position: fixed;
+    left: 0;
+    padding-left: 20px;
+    object-fit: contain;
+    cursor: pointer;
+   
+}
+.loginscrn-btn{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    right: 20px;
+    top: 20px;
+    position: fixed;
+    background-color: #e50914;
+   
+    cursor: pointer;
+    /* width: 100px; */
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+
+}
+.loginscrn-gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8)0,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+
+
+    );
+}
+.loginscrn-body{
+    z-index: 1;
+   color: white;
+   padding: 20px;
+   position: absolute;
+   top: 30%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   left: 0;
+   right: 0;
+}
+.loginscrn-body > h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.loginscrn-body >h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.loginscrn-body >h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.loginscrn-input{
+    margin-top: 20px;
+
+}
+.loginscrn-inputbox{
+    padding:11px 10px ;
+    outline-width: 0;
+    width: 30%;
+    height: 45px;
+    border: none;
+    max-width: 600px;
+}
+.loginscrn-getstart{
+    padding: 12px 16px 14px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin-top: 2px;
+}
